@@ -347,10 +347,28 @@ div.tocify {
 <style>
 h1 { text-align: center; }
 h2 { text-align: center; }
-body { font-family: "Arial", sans-serif; }
+body { font-family: "Arial", sans-serif; color: black}
 h1, h2, h3 { font-family: "Times New Roman", serif; }
 h2, h3 {color: green;}
+body {
+    background-image: url("fondo1.JPG");
+    background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
+    background-attachment: fixed; /* La imagen no se desplaza al hacer scroll */
+    background-position: center; /* Centra la imagen */
+      .background-overlay {
+    background-color: rgba(150, 200, 270, 0.8); /* Fondo blanco con 0% de transparencia */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Asegura que el contenido quede por encima de la capa */
+  }
+  }
 </style>
+<div class="background-overlay">
+
+</div>
 <p><em>Started in 2020 due to Covid restrictions over moving around
 countries and different regions, our goal is to provide to clients of
 small regions from Chile and Argentina the possibility of mailing their
