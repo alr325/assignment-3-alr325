@@ -7,11 +7,12 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 <style>
 h1 { text-align: center; }
-h2 { text-align: center; }
-body { font-family: "Arial", sans-serif; }
-h1, h2, h3 { font-family: "Times New Roman", serif; }
-h2, h3 {color: green;}
+body { font-family: "Arial", sans-serif;}
+h1, h2 { font-family: "Times New Roman", serif; }
+h2 {color: green;}
 </style>
+
+## About me 
 
 * I am from a small town called San Juan, located on the central west of Argentina
 
