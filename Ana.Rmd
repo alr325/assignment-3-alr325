@@ -21,6 +21,8 @@ h2, h3 {color: green;}
 
 * I have worked for 9 years with alternative crops such as Quinoa and Amaranth
 
+<div style="text-align: center;">
 <img src="quinoa.jpg" width="30%" style="display:inline;">
 <img src="quinoa2.jpg" width="30%" style="display:inline;">
 <img src="amaranto.jpg" width="17%" style="display:inline;">
+<div/>

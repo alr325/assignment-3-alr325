@@ -23,7 +23,10 @@ h2, h3 {color: green;}
 
 ### Ana Roldan
 
+<div style="text-align: center;">
+
 ![Phd student Crop and Soil Sciences](ana.jpg)
+
 
 #### Contact 
 
@@ -31,8 +34,11 @@ h2, h3 {color: green;}
 
 *Github account*:https://github.com/alr325
 
+</div>
 
 ### Andrea Sanchez 
+
+<div style="text-align: center;">
 
 ![Phd student in Horticulture](andrea.jpg)
 
@@ -41,3 +47,5 @@ h2, h3 {color: green;}
 *Mail*: acs332@cornell.edu 
 
 *Git hub account*: https://github.com/Andrea-Sanchez332
+
+</div>
