@@ -7,7 +7,6 @@ navbar:
       href: Ana.html
     - text: "Andrea"
       href: Andrea.html  
-output_dir: "."
 output:
   html_document:
     theme: cerulean
