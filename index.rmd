@@ -2,10 +2,18 @@
 title: "AUSTRAL LAB"
 output: html_document
 ---
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
+<style>
+h1 { text-align: center; }
+h2 { text-align: center; }
+body { font-family: "Arial", sans-serif; }
+h1, h2, h3 { font-family: "Times New Roman", serif; }
+h2, h3 {color: green;}
+</style>
+    
 *Started in 2020 due to Covid restrictions over moving around countries and different regions, our goal is to provide to clients of small regions from Chile and Argentina the possibility of mailing their sampling so they do not have to waste time and money dropping them. We are gonna do our best to give results on time. We also provide consultant services.* 
 
 ![We received samples from different regions](lab location .png)
