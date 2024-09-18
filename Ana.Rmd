@@ -23,4 +23,4 @@ h2, h3 {color: green;}
 
 <img src="quinoa.jpg" width="30%" style="display:inline;">
 <img src="quinoa2.jpg" width="30%" style="display:inline;">
-<img src="amaranto.jpg" width="30%" style="display:inline;">
+<img src="amaranto.jpg" width="17%" style="display:inline;">
