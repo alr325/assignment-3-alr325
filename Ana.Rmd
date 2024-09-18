@@ -19,4 +19,8 @@ h2, h3 {color: green;}
 
 * My goal as a researcher is to make science accessible and practical to farmers.
 
+* I have worked for 9 years with alternative crops such as Quinoa and Amaranth
 
+<img src="quinoa.jpg" width="30%" style="display:inline;">
+<img src="quinoa2.jpg" width="30%" style="display:inline;">
+<img src="amaranto.jpg" width="30%" style="display:inline;">
