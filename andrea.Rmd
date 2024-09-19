@@ -1,0 +1,25 @@
+---
+title: "About me"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Andrea Sanchez P.
+
+* I'm from Chile
+
+* 3rd year Ph.D student in the School of Integrative Plant Science, Horticulture section.
+
+* My work is based in the physiological mechanisms of plant tolerance under abiotic stress.
+
+* Currently, I'm using as plant models maize and grapevine
+
+![Maize experiment, Guterman Bioclimatic Laboratory - Ithaca](maize.jpg)
+
+<br>
+
+![Grapevine experiment, Cornell Agritech - Geneva](grapevine.jpg)
+
