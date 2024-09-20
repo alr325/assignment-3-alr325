@@ -355,7 +355,7 @@ body {
     background-attachment: fixed; /* La imagen no se desplaza al hacer scroll */
     background-position: center; /* Centra la imagen */
       .background-overlay {
-    background-color: rgba(150, 200, 270, 0.8); /* Fondo blanco con % de transparencia */
+    background-color: rgba(150, 200, 255, 0.8); /* Fondo blanco con % de transparencia */
     position: absolute;
     top: 0;
     left: 0;
@@ -363,6 +363,20 @@ body {
     height: 100%;
     z-index: -1; /* Asegura que el contenido quede por encima de la capa */
   }
+   .image-container {
+    display: flex; /* Alinea las imágenes en fila */
+    justify-content: flex-start; /* Alinea hacia la izquierda */
+    align-items: center; /* Centra verticalmente las imágenes */
+  }
+
+  .large-image {
+    width: 30%; /* La imagen más grande ocupará el % del ancho */
+    margin-right: 20px; /* Espacio entre la imagen grande y las pequeñas */
+  }
+
+  .small-image {
+    width: 30%; /* Las imágenes pequeñas ocuparán el % del ancho */
+    margin-right: 10px; /* Espacio entre las imágenes pequeñas */
   }
 </style>
 <div class="background-overlay">
@@ -381,23 +395,6 @@ practical to farmers.</p></li>
 <li><p>I have worked for 9 years with alternative crops such as Quinoa
 and Amaranth</p></li>
 </ul>
-<style>
-  .image-container {
-    display: flex; /* Alinea las imágenes en fila */
-    justify-content: flex-start; /* Alinea hacia la izquierda */
-    align-items: center; /* Centra verticalmente las imágenes */
-  }
-
-  .large-image {
-    width: 30%; /* La imagen más grande ocupará el % del ancho */
-    margin-right: 20px; /* Espacio entre la imagen grande y las pequeñas */
-  }
-
-  .small-image {
-    width: 30%; /* Las imágenes pequeñas ocuparán el % del ancho */
-    margin-right: 10px; /* Espacio entre las imágenes pequeñas */
-  }
-</style>
 <div class="image-container">
 <p><img src="sanjuan.png" class="large-image">
 <img src="quinoa.jpg" class="small-image">

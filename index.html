@@ -345,18 +345,22 @@ div.tocify {
 
 
 <style>
-h1 { text-align: center; }
-h2 { text-align: center; }
-body { font-family: "Arial", sans-serif; color: black}
-h1, h2, h3 { font-family: "Times New Roman", serif; }
-h2, h3 {color: green;}
-body {
-    background-image: url("fondo1.JPG");
+h1, h2, h3 { text-align: center; }
+body { 
+font-family: "Arial", sans-serif; color: black; 
+background-image: url("fondo1.JPG");
     background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
     background-attachment: fixed; /* La imagen no se desplaza al hacer scroll */
     background-position: center; /* Centra la imagen */
-      .background-overlay {
-    background-color: rgba(150, 200, 270, 0.8); /* Fondo blanco con 0% de transparencia */
+}
+h1, h2, h3 { 
+font-family: "Times New Roman", serif; 
+}
+h2, h3 {
+color: green;
+}
+.background-overlay {
+    background-color: rgba(150, 200, 255, 0.8); /* Fondo blanco con      80% de transparencia */
     position: absolute;
     top: 0;
     left: 0;
@@ -364,7 +368,9 @@ body {
     height: 100%;
     z-index: -1; /* Asegura que el contenido quede por encima de la capa */
   }
-  }
+.centered-image {
+display: block; margin-left: auto: margin-right: auto;
+}
 </style>
 <div class="background-overlay">
 
@@ -376,7 +382,7 @@ sampling so they do not have to waste time and money dropping them. We
 are gonna do our best to give results on time. We also provide
 consultant services.</em></p>
 <div class="float">
-<img src="lab%20location%20.png"
+<img src="lablocation%20.png"
 alt="We received samples from different regions" />
 <div class="figcaption">We received samples from different regions</div>
 </div>
@@ -384,7 +390,6 @@ alt="We received samples from different regions" />
 <h2>WHO ARE WE</h2>
 <div id="ana-roldan" class="section level3">
 <h3>Ana Roldan</h3>
-<div style="text-align: center;">
 <div class="float">
 <img src="ana.JPG" alt="Phd student Crop and Soil Sciences" />
 <div class="figcaption">Phd student Crop and Soil Sciences</div>
@@ -397,10 +402,8 @@ class="email">alr325@cornell.edu</a></p>
 class="uri">https://github.com/alr325</a></p>
 </div>
 </div>
-</div>
 <div id="andrea-sanchez" class="section level3">
 <h3>Andrea Sanchez</h3>
-<div style="text-align: center;">
 <div class="float">
 <img src="andrea.jpg" alt="Phd student in Horticulture" />
 <div class="figcaption">Phd student in Horticulture</div>
@@ -412,7 +415,6 @@ class="email">acs332@cornell.edu</a></p>
 <p><em>Git hub account</em>: <a
 href="https://github.com/Andrea-Sanchez332"
 class="uri">https://github.com/Andrea-Sanchez332</a></p>
-</div>
 </div>
 </div>
 </div>
